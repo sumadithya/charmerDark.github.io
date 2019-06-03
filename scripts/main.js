@@ -26,4 +26,3 @@ else{
 myButton.onclick=function(){
 	setUserName();
 }
-console.log(showCookies());

@@ -12,7 +12,7 @@ myImage.onclick = function() {
 var myHeading=document.querySelector('h2');
 var myButton=document.querySelector('button');
 function setUserName(){
-	var myName=prompt('Enter Your Name Seeker');
+	var myName=prompt('Enter Your Name Seeker') || "anon";
 	localStorage.setItem('name',myName);
 	myHeading.textContent='It\'s your chance to lose yourself '+myName;
 }

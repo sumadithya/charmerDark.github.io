@@ -36,3 +36,6 @@ li{
 	letter-spacing: 1px;
 	color: #2A93A6;
 }
+li:nth-child(5){
+	display: none;
+}

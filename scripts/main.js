@@ -23,6 +23,4 @@ else{
 	var storedName=localStorage.getItem('name');
 	myHeading.textContent='It\'s your chance to lose yourself '+storedName;
 }
-myButton.onclick=function(){
-	setUserName();
-}
+myButton.onclick=setUserName;
